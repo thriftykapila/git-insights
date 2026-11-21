@@ -2,8 +2,15 @@
   "manifestVersion": 2,
   "id": "git-insights",
   "name": "Git Insights",
-  "version": "0.1.0",
-  "description": "Git blame, history and commit insights panel (phase 1: git probe).",
+  "version": "0.1.1",
+  "description": "See who wrote each line of a file (git blame), with hover details and per-commit info.",
+  "author": {
+    "name": "Thrifty Kapila",
+    "url": "https://www.linkedin.com/in/thriftykapila/"
+  },
+  "homepage": "https://github.com/thriftykapila/git-insights",
+  "repository": "https://github.com/thriftykapila/git-insights",
+  "license": "MIT",
   "engines": {
     "orca": ">=1.4.247"
   },

@@ -1,5 +1,7 @@
 # Git Insights
 
+Created by [Thrifty Kapila](https://www.linkedin.com/in/thriftykapila/), owner and core maintainer. Open source under the [MIT License](LICENSE).
+
 An Orca sidebar panel that shows who wrote each line of a file, GitLens-style, using read-only `git`.
 
 - Pick a workspace and search for a tracked file; the panel lists `git blame` for 100 lines at a time.
