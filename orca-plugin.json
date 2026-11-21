@@ -1,0 +1,32 @@
+{
+  "manifestVersion": 2,
+  "id": "git-insights",
+  "name": "Git Insights",
+  "version": "0.1.0",
+  "description": "Git blame, history and commit insights panel (phase 1: git probe).",
+  "engines": {
+    "orca": ">=1.4.247"
+  },
+  "execution": "trusted-worker",
+  "pluginApi": 1,
+  "main": "src/worker.ts",
+  "contributes": {
+    "panels": [
+      {
+        "id": "git-insights",
+        "title": "Git Insights",
+        "icon": "blocks",
+        "entry": "src/panel.tsx",
+        "ui": "components"
+      }
+    ]
+  },
+  "capabilities": [
+    {
+      "kind": "workspace:read"
+    },
+    {
+      "kind": "storage:own"
+    }
+  ]
+}
